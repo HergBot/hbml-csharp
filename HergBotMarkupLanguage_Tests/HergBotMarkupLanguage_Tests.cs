@@ -57,7 +57,7 @@ namespace HergBotMarkupLanguage_Tests
         [Test]
         public void AddAttribute()
         {
-            _testElement.AddAttribute()
+            _testElement.AddAttribute(TEST_ATTRIBUTE_NAME, TEST_ATTRIBUTE_VALUE);
         }
 
         [Test]
@@ -71,7 +71,5 @@ namespace HergBotMarkupLanguage_Tests
         {
 
         }
-
-        [Test]
     }
 }
