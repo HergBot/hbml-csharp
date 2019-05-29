@@ -1,6 +1,8 @@
-﻿// PROJECT		    : HBML C#
-// PROGRAMMER	    : Justin
-// FIRST VERSION	: 12/08/2017
+﻿/*
+* PROJECT: HBML C#
+* PROGRAMMER: Justin
+* FIRST VERSION: 12/08/2017
+*/
 
 using System.Collections.Generic;
 using System.Linq;

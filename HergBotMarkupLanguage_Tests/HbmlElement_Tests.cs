@@ -5,7 +5,7 @@ using HergBotMarkupLanguage;
 namespace HergBotMarkupLanguage_Tests
 {
     [TestFixture]
-    public class HbmlElement_Test
+    public class HbmlElement_Tests
     {
         private const string TEST_LABEL = "TestLabel";
 
