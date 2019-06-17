@@ -1,8 +1,8 @@
 ﻿using NUnit.Framework;
 
-using HergBotMarkupLanguage;
+using HergBot.MarkupLanguage;
 
-namespace HergBotMarkupLanguage_Tests
+namespace HergBot.MarkupLanguage_Tests
 {
     [TestFixture]
     public class HbmlElement_Tests
