@@ -2,6 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>HergBot.MarkupLanguage</PackageId>
+    <Authors>Justin</Authors>
+    <Company>HergBot</Company>
+    <Product>HergBot.MarkupLanguage</Product>
+    <Description>A library for logging in a custom XML-like syntax that can make custom filtering and querying easier.</Description>
+    <RepositoryUrl>https://github.com/HergBot/hbml-csharp</RepositoryUrl>
+    <RepositoryType>GitHub</RepositoryType>
   </PropertyGroup>
 
   <ItemGroup>
@@ -9,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\HergBotLogging\HergBotLogging\HergBotLogging.csproj" />
+    <PackageReference Include="HergBot.Logging" Version="1.0.0" />
   </ItemGroup>
 
 </Project>
